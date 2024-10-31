@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
-    <remote name="gh"
-            fetch="https://github.com"
+    <remote name="GitFASTBOOT"
+            fetch="https://github.com/GitFASTBOOT"
             clone-depth="1" />
+
+    <remote  name="gh"
+           fetch="https://github.com"/> 
+
  <!--Tree -->
- <project path="device/xiaomi/camellia" name="ahmedshahin9/-device_xiaomi_chameli" remote="gh" revision="Copper-T" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="orion-14" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO-Dev" revision="fourteen" />
+
 
  <!--Kernel -->
- <project path="kernel/xiaomi/camellia" name="ahmedshahin9/kernel_xiaomi_chameli" remote="gh" revision="openela-lts" />
- 
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="fourteen" />
+
  <!--Vendor -->
- <project path="vendor/xiaomi/camellia" name="ahmedshahin9/vendor_xiaomi_camellia" remote="gh" revision="13-plus" />
- 
- <!--hardware -->
- <project path="hardware/mediatek" name="ahmedshahin9/hardware_mediatek" remote="gh" revision="14-q1" />
- <project path="hardware/xiaomi" name="ahmedshahin9/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
- 
- <!--sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="ahmedshahin9/-android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" />
+ <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="fourteen" />
+ <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="YFMARCO-Dev" revision="fourteen" />
+
+<!--CleanUp Existing-->
+
+<!--Other HALs-->
+
+<!-- Hardware -->
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO-Dev" revision="aosp" />
 
 </manifest>
