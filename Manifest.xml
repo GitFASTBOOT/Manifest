@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="GitFASTBOOT"
-            fetch="https://github.com/GitFASTBOOT"
+    <remote name="hui dumpyard"
+            fetch="https://github.com/hui dumpyard"
             clone-depth="1" />
 
     <remote  name="gh"
