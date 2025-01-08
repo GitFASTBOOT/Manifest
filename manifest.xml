@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Default settings -->
+    <default revision="main" remote="origin" sync-j="4" />
+
+    <!-- Remote definitions -->
+    <remote name="origin" fetch="https://github.com/GitFASTBOOT/" />
+
+    <!-- common -->
+    <project name="android_device_common-twrp" path="android_device_common-twrp" revision="main" />
+
+    <!-- motorola -->
+    <project name="device_motorola_penang_twrp" path="device/motorola/penangf" revision="main" />
+    <project name="device_motorola_corfu_twrp" path="device/motorola/corfu" revision="main" />
+
+    <!-- samsung -->
+    <project name="android_device_gta4l_twrp" path="device/samsung/gta4l" revision="main" />
+    <project name="android_device_samsung_a13ve-twrp" path="device/samsung/a13ve" revision="main" />
+
+    <!-- realme -->
+    <project name="android_device_realme_RMX3261" path="device/realme/RMX3261" revision="main" />
+    <project name="device_realme_RMX3834_twrp" path="device/realme/RMX3834" revision="main" />
+
+    <!-- tecno -->
+    <project name="android_device_tecno_lh8n_twrp" path="android_device_tecno_lh8n_twrp" revision="main" />
+
+    <!-- infinix -->
+    <project name="android_device_infinix_X669D-twrp" path="device/infinix/X669D" revision="main" />
+</manifest>
